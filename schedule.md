@@ -140,25 +140,23 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - "Barycentric Interpolation formula" [same notes as before](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf) from Driscoll and Braun;
     - cf. [Berrut and Trefethen's 2004 SIAM Review article](https://people.maths.ox.ac.uk/trefethen/barycentric.pdf); 
   - "Lagrange Interpolation Error Bounds" (10 min video; [same notes as before](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf)) ch 3.2; 
-  - [Divided Differences](Notes/Ch3_DividedDifferences.pdf) from ch 3.3
-  - Demos: [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb), which also links to other demos
   - Further resources on Lagrange interpolation:
     - [8 min youtube video](https://www.youtube.com/watch?v=_zK_KhHW6og) (nice handwriting)
     - [42 min youtube video](https://www.youtube.com/watch?v=M8hF7QChkSY) (with Vandermonde matrix and divided differences) -- this is a standard classroom blackboard lecture from Wen Shen at Penn State (textbook author, nice handwriting)
     - [13 min youtube video](https://www.youtube.com/watch?v=C1Jijw3VaI0)
 #### Week 9, more Chapter 3 (interpolation)
 - Mon, Oct 13 
-  - Finish up anything from Friday
-    - See also the [interpolation: supplemental notes on Newton polynomials](Notes/Ch3_IntroInterpolationSupplement.pdf)
-  - [Hermite Interpolation](Notes/Ch3_Hermite.pdf) from ch 3.4
+  - [Divided Differences](Notes/Ch3_DividedDifferences.pdf) from ch 3.3
 - Wed, Oct 15 
-  - [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
-  - Demo: [splines](Demos/Ch3_Splines.ipynb)
+  - [Interpolation: supplemental notes on how to think about it](Notes/Ch3_IntroInterpolationSupplement.pdf) i.e., different bases, and solving linear systems
+  - Demos: [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb), which also links to other demos
 - Thu, Oct 16, Lab 8
   - TBD, probably interpolation
 - Fri, Oct 17 
   - Debrief from lab
-  - TBD (more interpolation)
+  - [Hermite Interpolation](Notes/Ch3_Hermite.pdf) from ch 3.4
+  - [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
+  - Demo: [splines](Demos/Ch3_Splines.ipynb)
 #### Week 10, Chapter 8 (approximation theory)
 - Mon, Oct 20 
   - Ch 10.1, discrete l2
@@ -211,7 +209,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
           2. [Part 1: Legendre polynomials](https://www.youtube.com/watch?v=65zwMgGZnUs)
           3. [Part 2: Determining the weights](https://www.youtube.com/watch?v=nQZYBWB6q_k)
           4. [Part 3: Explanation](https://www.youtube.com/watch?v=cKKrGr93f6c)
-    - Lloyd Trefethen, "[Is Gauss Quadrature Better than Clenshaw–Curtis?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.4174&rep=rep1&type=pdf)"", SIAM Review 50(1), pp. 67–87 (2008)
+    - Lloyd Trefethen, "[Is Gauss Quadrature Better than Clenshaw–Curtis?](https://epubs.siam.org/doi/10.1137/060659831)", SIAM Review 50(1), pp. 67–87 (2008)
     - Topics in our class: Gauss-Legendre, Gauss-Laguerre, Gauss-Hermite; *skip* Chebyshev-Gauss. Note that we are *not* covering Clenshaw-Curtis
   - Time-permitting, we may cover 
     - [Multiple Integrals](Notes/Ch4_MultipleIntegrals.pdf), from ch 4.8, with demo [Ch4_MultidimensionalIntegrals.ipynb](Demos/Ch4_MultidimensionalIntegrals.ipynb)
