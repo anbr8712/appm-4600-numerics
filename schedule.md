@@ -159,18 +159,19 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Demo: [splines](Demos/Ch3_Splines.ipynb)
 #### Week 10, Chapter 8 (approximation theory)
 - Mon, Oct 20 
-  - Ch 10.1, discrete l2
+  - [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
 - Wed, Oct 22 
-  - Ch 10.2-10.3, continuous L2
+  - [Ch 8.1: discrete l2](Notes/Ch8_Discrete_l2.pdf)
 - Thu, Oct 23, Lab 9
   - TBD, probably splines, or something with [chebfun](https://www.chebfun.org/)
 - Fri, Oct 24 
   - Debrief from lab
-  - 10.4, Rational function approximation
+  - [Ch 8.2: continuous L2](Notes/Ch8_Continuous_L2.pdf)
+  - 8.4, Rational function approximation
   - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen
 #### Week 11, Chapter 4 (numerical integration)
 - Mon, Oct 27 
-  - 10.5, Trigonometric polynomial approximation
+  - 8.5, Trigonometric polynomial approximation
 - Wed, Oct 29 
   - [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf), and [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
   - Demo: [Ch4_integration.ipynb](https://github.com/stephenbeckr/numerical-analysis-class/blob/master/Demos/Ch4_integration.ipynb)
