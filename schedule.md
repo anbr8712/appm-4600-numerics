@@ -151,31 +151,33 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - [Interpolation: supplemental notes on how to think about it](Notes/Ch3_IntroInterpolationSupplement.pdf) i.e., different bases, and solving linear systems
   - Demos: [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb), which also links to other demos
 - Thu, Oct 16, Lab 8
-  - [Lab 8: interpolation](https://github.com/cu-applied-math/appm-4600-numerics/blob/main/Labs/Lab08_interpolation.ipynb)
+  - [Lab 8: interpolation](Labs/Lab08_interpolation.ipynb)
 - Fri, Oct 17 
   - Debrief from lab
   - [Hermite Interpolation](Notes/Ch3_Hermite.pdf) from ch 3.4
-  - [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
-  - Demo: [splines](Demos/Ch3_Splines.ipynb)
+  - Intro to [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
+  - ~~Demo: [splines](Demos/Ch3_Splines.ipynb)~~ (that demo is not finished)
 #### Week 10, Chapter 8 (approximation theory)
 - Mon, Oct 20 
-  - [Splines](Notes/Ch3_Splines.pdf) from ch 3.5 (we'll skip ch 3.6)
+  - Finish [Splines](Notes/Ch3_Splines.pdf)
+  - Demo: [Misc_speedExamples](Demos/Misc_speedExamples.ipynb) on vectorizing code, avoiding `if` statements in inner `for` loops, etc.
 - Wed, Oct 22 
-  - [Ch 8.1: discrete l2](Notes/Ch8_Discrete_l2.pdf)
+  - [Ch 8.1: discrete l2](Notes/Ch8_Discrete_l2.pdf) and intro to approximation theory
 - Thu, Oct 23, Lab 9
-  - TBD, probably splines, or something with [chebfun](https://www.chebfun.org/)
+  - [Lab 9: regression with different metrics](Labs/Lab09_regression.ipynb)
 - Fri, Oct 24 
   - Debrief from lab
-  - [Ch 8.2: continuous L2](Notes/Ch8_Continuous_L2.pdf)
-  - 8.4, Rational function approximation
-  - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen
+  - Start [Ch 8.2: continuous L2](Notes/Ch8_Continuous_L2.pdf), up until Chebyshev polynomials
 #### Week 11, Chapter 4 (numerical integration)
-- Mon, Oct 27 
+- Mon, Oct 27
+  - Finish 8.2 from Friday.
+  - 8.4, Rational function approximation
+    - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen 
   - 8.5, Trigonometric polynomial approximation
+  - smoothing, loess, etc.
 - Wed, Oct 29 
   - [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf), and [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
-  - Demo: [Ch4_integration.ipynb](https://github.com/stephenbeckr/numerical-analysis-class/blob/master/Demos/Ch4_integration.ipynb)
-  - Demo: [Misc_speedExamples.ipynb](Demos/Misc_speedExamples.ipynb) 
+  - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
   - Note: We will not cover the first parts of this chapter (on *differentiation*), as that is now covered 2nd semester along with Ch 5.  For reference, we have some old notes: [Intro to numerical differentiation](Notes/Ch4_FiniteDifferencesIntro.pdf) and [Finite differences](Notes/Ch4_FiniteDifferences_more.pdf) on ch 4.1; with a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb); and [Richardson extrapolation](Notes/Ch4_RichardsonExtrapolation.pdf) on ch 4.2 along with the [Ch4_RichardsonExtrapolation.ipynb demo](Demos/Ch4_RichardsonExtrapolation.ipynb)
 - Thu, Oct 30, Lab 10
   - TBD, perhaps simple quadrature (using numpy's builtin tools), compared to symbolic (sympy/mathematica), compared to [chebfun](https://www.chebfun.org/) which has the aim to "feel symbolic but run at the speed of numerics"
