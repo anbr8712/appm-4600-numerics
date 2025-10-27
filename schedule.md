@@ -171,10 +171,12 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 #### Week 11, Chapter 4 (numerical integration)
 - Mon, Oct 27
   - Finish 8.2 from Friday.
-  - 8.4, Rational function approximation
+    - Demo: [Approximation in L^2](Demos/Ch8_ContinuousL2.ipynb)
+  - [8.4, Rational function approximation](Ch8_RationalFcn.pdf)
     - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen 
-  - 8.5, Trigonometric polynomial approximation
-  - smoothing, loess, etc.
+  - If time:
+    - 8.5, Trigonometric polynomial approximation
+    - smoothing, loess, etc.
 - Wed, Oct 29 
   - [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf), and [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
   - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
