@@ -9,7 +9,7 @@ Here's the plan for Spring 2026. Note that things may change slightly,
 so see the "Detailed list" below for what we actually covered, which
 will be updated during the semester.
 
-[Planned schedule](./APPM 4600 Spring 2026 schedule.pdf)
+[Planned schedule](./APPM%204600%20Spring%202026%20schedule.pdf)
 
 # Detailed list of topics
 i.e., what we actually covered.  Topics listed for dates in the future are just estimates,  and will be revised later.
